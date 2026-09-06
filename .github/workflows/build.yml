@@ -15,17 +15,22 @@ jobs:
         python3 -m pip install qmk
         qmk setup -y
 
-    - name: Link Keyboard Folder
+    - name: Install ARM GCC Toolchain Dependencies
       run: |
-        ln -s "$GITHUB_WORKSPACE/Firmware" keyboards/kyps75
+        sudo apt-get update
+        sudo apt-get install -y gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi dos2unix
+
+    - name: Link Keyboard Folder to QMK Tree
+      run: |
+        ln -s "$GITHUB_WORKSPACE/Firmware" /home/runner/qmk_firmware/keyboards/kyps75
 
     - name: Compile Firmware
       run: |
+        cd /home/runner/qmk_firmware
         qmk compile -kb kyps75 -km default
 
     - name: Upload Finished Firmware Artifact
       uses: actions/upload-artifact@v4
       with:
         name: kyps75-firmware
-        path: .build/*.uf2
-
+        path: /home/runner/qmk_firmware/.build/*.uf2
