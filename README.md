@@ -10,13 +10,13 @@ welcome to the KYPS75 repository. this is a scratch-built 75% mechanical keyboar
 * QMK/VIA compatible [eventually, whenever i finish fighting the firmware]
 
 ## Images of my Build
-![layout planning diagram](keyboard-layout.png)
-![dxf](dxf.png)
-![pcb_1](pcb_new_1.png)
-![pcb_2](pcb_new_2.png)
-![schematic](schematic_new.png)
-![case_1](case_1.png)
-![case_2](case_3.png)
+![layout planning diagram](images/keyboard-layout.png)
+![dxf](images/dxf.png)
+![pcb_1](images/pcb_new_1.png)
+![pcb_2](images/pcb_new_2.png)
+![schematic](images/schematic_new.png)
+![case_1](images/case_1.png)
+![case_2](images/case_3.png)
 
 ## Bill of Materials (BOM)
 
@@ -49,5 +49,5 @@ welcome to the KYPS75 repository. this is a scratch-built 75% mechanical keyboar
 
 ## Credits
 
-* **Software & Tools:** [KiCad](https://www.kicad.org/) (PCB & Schematic design), [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) (Layout concepting), and [SwillKb Plate Builder](http://builder.swillkb.com/) (Plate outline generation).
+* **Software & Tools:** [KiCad](images/https://www.kicad.org/) (PCB & Schematic design), [Keyboard Layout Editor](images/http://www.keyboard-layout-editor.com/) (Layout concepting), and [SwillKb Plate Builder](images/http://builder.swillkb.com/) (Plate outline generation).
 * **Collaborators:** Special thanks to my two friends for assisting with the 3D enclosure modeling and reviewing the electrical layout logic. [i definitely would have shorted the board and started a fire without them]
