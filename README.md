@@ -6,7 +6,7 @@ welcome to the KYPS75 repository. this is a scratch-built 75% mechanical keyboar
 * 75% exploded layout [so you don't accidentally mash the wrong modifiers while panic-typing]
 * dual EC11 rotary encoders [master volume on the left, brush size/timeline scrub on the right]
 * 0.91" I2C OLED display [mostly just to show off custom graphics]
-* custom [3D-printed enclosure](https://cad.onshape.com/documents/1824477c31c8a1422ed197bb/w/2bf0ef04c5154a471a659c80/e/6f7b1d6ca6a03ca09462a7d1) [designed to barely fit the USB-C port]
+* custom 3D-printed enclosure [designed to barely fit the USB-C port]
 * QMK/VIA compatible [eventually, whenever i finish fighting the firmware]
 
 ## Images of my Build
@@ -17,6 +17,7 @@ welcome to the KYPS75 repository. this is a scratch-built 75% mechanical keyboar
 ![schematic](images/schematic_new.png)
 ![case_1](images/case_1.png)
 ![case_2](images/case_3.png)
+**Onshape Link:**https://cad.onshape.com/documents/1824477c31c8a1422ed197bb/w/2bf0ef04c5154a471a659c80/e/6f7b1d6ca6a03ca09462a7d1
 
 ## Bill of Materials (BOM)
 
