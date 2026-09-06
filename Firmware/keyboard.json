@@ -1,7 +1,6 @@
 {
-    "manufacturer": "alex t",
-    "keyboard_name": "brew75",
-    "maintainer": "geg-tech",
+    "keyboard_name": "kyps75",
+    "maintainer": "theonlydesigner",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
